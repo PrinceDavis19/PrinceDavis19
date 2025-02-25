@@ -1,4 +1,6 @@
 ## Hi there 👋
+I am a male student currently learning coding in html and c.
+am looking to collaborate in projects that may increase my experiencein general.
 
 
 <!--
