@@ -1,0 +1,338 @@
+I'll create an HTML and CSS implementation of this timetable for you. Here's the code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Timetable 2024/2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .timetable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        .timetable, .timetable th, .timetable td {
+            border: 1px solid #000;
+        }
+        .timetable th, .timetable td {
+            padding: 8px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .timetable th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .day-header {
+            background-color: #e6e6e6;
+            font-weight: bold;
+        }
+        .break {
+            background-color: #ffe6e6;
+            font-weight: bold;
+        }
+        .legend {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+        .legend ol {
+            columns: 3;
+            column-gap: 40px;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-style: italic;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MASTER TIMETABLE FOR 2024/2025 ACADEMIC YEAR</h1>
+    
+    <table class="timetable">
+        <thead>
+            <tr>
+                <th>Day/Time</th>
+                <th>S.D.</th>
+                <th>S.D.A.S.</th>
+                <th>N00-3.0</th>
+                <th>X.G.T.</th>
+                <th>M15-11.0</th>
+                <th>L16-11.6</th>
+                <th>L16-12.0</th>
+                <th>T.G.R.</th>
+                <th>L30 - L19</th>
+                <th>Z.D.A.M.</th>
+                <th>Z.D.A.M.</th>
+                <th>S.D.E.09</th>
+            </tr>
+        </thead>
+        <body>
+            <!-- Monday -->
+            <tr>
+                <td class="day-header" rowspan="7">MON</td>
+                <td>N</td>
+                <td>N.Y.</td>
+                <td>KT.2</td>
+                <td>MM14.1</td>
+                <td>DRS7</td>
+                <td>P.F.13</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td>SCENCE.9</td>
+                <td>MUSIC.8</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>N.Y.</td>
+                <td>MM14.1</td>
+                <td>SCENCE.9</td>
+                <td>ART.18</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td></td>
+                <td>L25.14</td>
+                <td></td>
+                <td>L25.14</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>Donceton</td>
+                <td>DRS.17</td>
+                <td class="break" colspan="9">BREAK</td>
+                <td>HBT10</td>
+                <td>SCENCE.9</td>
+                <td>SWALLPINE</td>
+                <td></td>
+                <td>RUG</td>
+                <td>MATH.1</td>
+                <td>P.F.13</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>N.Y.</td>
+                <td>DRS.7</td>
+                <td></td>
+                <td>L24.1</td>
+                <td>L24.4</td>
+                <td>MATH.1</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td>GEO.15</td>
+                <td>HBT10</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>SCENCE.9</td>
+                <td>DRS.7</td>
+                <td></td>
+                <td>RUG.7</td>
+                <td>HBT10</td>
+                <td></td>
+                <td>RUG.7</td>
+                <td></td>
+                <td>MATH.1</td>
+                <td></td>
+                <td>MATH.1</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>MM14.1</td>
+                <td>SCENCE.9</td>
+                <td></td>
+                <td>MATH.1</td>
+                <td>ART.18</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td></td>
+                <td>HBT10</td>
+                <td></td>
+                <td>MATH.1</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>DRS.7</td>
+                <td>SWALLPINE</td>
+                <td></td>
+                <td>L24.1</td>
+                <td>L24.4</td>
+                <td>MATH.1</td>
+                <td></td>
+                <td>P.F.13</td>
+                <td></td>
+                <td>SCENCE.9</td>
+                <td>GEORG.9</td>
+                <td>TTQD05</td>
+            </tr>
+            
+            <!-- Tuesday -->
+            <tr>
+                <td class="day-header" rowspan="6">TUE</td>
+                <td>N</td>
+                <td>MATH.4</td>
+                <td>DRS.7</td>
+                <td class="break" colspan="9">BREAK</td>
+                <td>HBT10</td>
+                <td>CROLLS</td>
+                <td>FWF9</td>
+                <td>UNION</td>
+                <td>WALLPINE</td>
+                <td>WALLPINE</td>
+                <td>MUTIN</td>
+                <td>TIME</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>DRS.7</td>
+                <td>MATH.4</td>
+                <td></td>
+                <td>FWF14</td>
+                <td>GEO.12</td>
+                <td>HBT10</td>
+                <td></td>
+                <td>RUG.4</td>
+                <td></td>
+                <td>RUG.4</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>SCENCE.9</td>
+                <td>MATH.11</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td>DRS.7</td>
+                <td>P.F.13</td>
+                <td></td>
+                <td>HBT10</td>
+                <td></td>
+                <td>ART.18</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>MM14.1</td>
+                <td>DRS.7</td>
+                <td></td>
+                <td>HBT10</td>
+                <td>ART.18</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td></td>
+                <td>SCENCE.9</td>
+                <td>MUSIC.8</td>
+                <td></td>
+            </tr>
+            
+            <!-- Wednesday -->
+            <tr>
+                <td class="day-header" rowspan="6">WED</td>
+                <td>N</td>
+                <td>DRS.7</td>
+                <td>SCENCE.9</td>
+                <td class="break" colspan="9">BREAK</td>
+                <td>KT.2</td>
+                <td>KT.2</td>
+                <td>GEO.15</td>
+                <td></td>
+                <td>UNION</td>
+                <td>MATH.1</td>
+                <td>HBT10</td>
+                <td>QUA</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>KT.2/SWA</td>
+                <td>KT.2/SWA</td>
+                <td></td>
+                <td>MATH.4</td>
+                <td>FWF9</td>
+                <td>DRS.7</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>DRS.7</td>
+                <td></td>
+                <td>CHRIS</td>
+                <td>GEO.15</td>
+                <td>MATH.1</td>
+                <td></td>
+                <td>KT.12</td>
+                <td></td>
+                <td>KT.12</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>MM14.1</td>
+                <td>SCENCE.9</td>
+                <td></td>
+                <td>HBT10</td>
+                <td>DRS.7</td>
+                <td></td>
+                <td>GEO.15</td>
+                <td></td>
+                <td>L25.14</td>
+                <td></td>
+                <td>L25.14</td>
+            </tr>
+            <tr>
+                <td>N</td>
+                <td>DRS.7</td>
+                <td></td>
+                <td>MATH.1</td>
+                <td>GEO.15</td>
+                <td>MUSIC.9</td>
+                <td></td>
+                <td>SCENCE.9</td>
+                <td></td>
+                <td>SCENCE.9</td>
+                <td></td>
+            </tr>
+            
+            <!-- Thursday -->
+            <tr>
+                <td class="day-header" rowspan="6">THU
+            </tr>
+        </body>    
+    </table>
+</body>
+    
