@@ -1,7 +1,6 @@
-## Hi there 👋
-I am a male student currently taking a course in tellecomunication and IT learning coding in html and c.
-I currentlynit involved in any project but looking to collaborate in projects that may increase my experience in general.
-i can be found in email at princedavisokodhe19@gmail.com
+## Hi there 
+the whole file is about a time table to enable the running of a school 
+the author of this timetable can be found in email at princedavisokodhe19@gmail.com
 
 
 <!--
