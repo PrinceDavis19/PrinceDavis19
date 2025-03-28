@@ -1,0 +1,38 @@
+body {
+  font-family: ARIAL,SAN-SERIF;
+  display: flex;
+  justify content:center ;
+  align-items: center;
+  height:100vh;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%
+  margin: auto;
+}
+
+th, td {
+  boder: 1px solid #000;
+  paddling: 10px;
+  text-align: cemter;
+}
+
+th {
+  background-color:#f2f2f2;
+  fomt-size: 1.2em;
+}
+
+.break {
+  background-color: #ffcccb;
+}
+
+.lunch {
+  background-color:#add8e6;
+}
+
+.activity {
+  background-color:#90ee90;
+}
+
