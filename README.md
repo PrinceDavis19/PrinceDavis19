@@ -1,5 +1,5 @@
 ## Hi there 
-the whole file is about a time table to enable the running of a school 
+the whole file is about a time table to enable the running of a school .
 the author of this timetable can be found in email at princedavisokodhe19@gmail.com
 
 
